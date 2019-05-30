@@ -1,0 +1,15 @@
+##############################
+#      Kits.yml              #
+# KitPvP door Maiky1304      #
+# Voor DDG Proefproject      #
+##############################
+pvp: # Eerste kit kan je aanpassen gewoon kopieren en pasten voor meer kits.
+  items:
+    - DIAMOND_SWORD
+    - GOLDEN_APPLE
+  options:
+    item: DIAMOND_SWORD
+    kitname: '&6PvP Kit'
+    lore:
+      - '&7'
+      - '&7Klik om deze kit te kiezen!'

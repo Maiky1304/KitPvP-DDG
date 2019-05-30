@@ -1,0 +1,11 @@
+name: KitPvP
+version: 1.0-SNAPSHOT
+main: maiky1304.kitpvp.KitPvP
+api-version: 1.13
+authors: [Maiky1304]
+description: Proefproject voor de DDG Server, KitPvP plugin met database voor statistieken opslag
+commands:
+  kitpvp:
+    description: 'Dit is het commando waarmee je alles kan doen voor de KitPvP plugin'
+  arena:
+    description: 'Dit is het commando waarmee je alles kan doen voor de Arenas in de KitPvP plugin'
