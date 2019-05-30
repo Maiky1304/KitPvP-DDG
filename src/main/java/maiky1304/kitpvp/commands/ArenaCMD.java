@@ -40,6 +40,7 @@ public class ArenaCMD implements CommandExecutor {
                 }
             }else if (args.length >= 2){
                 if (args.length == 2){
+                    // Sub-commando voor het maken van een arena
                     if (args[0].equalsIgnoreCase("create")) {
                         int arenaID;
 
@@ -91,7 +92,7 @@ public class ArenaCMD implements CommandExecutor {
                     }
                 }else if (args.length == 3){
                     /*
-                    Spawn Setting Arena's
+                    Spawn Instellingen Arena's
                     Commando /arena setspawn <arenaid> <spawnid>
                      */
 
@@ -125,6 +126,10 @@ public class ArenaCMD implements CommandExecutor {
                         float yaw = p.getLocation().getYaw();
                         float pitch = p.getLocation().getPitch();
                         String worldName = p.getLocation().getWorld().getName();
+                        
+                        /*
+                        * Config zet nieuwe data voor nieuwe spawn location.
+                        */
 
                         ConfigManager.getData().set("arenas." + arenaID + ".spawns." + spawnID + ".x", x);
                         ConfigManager.getData().set("arenas." + arenaID + ".spawns." + spawnID + ".y", y);
